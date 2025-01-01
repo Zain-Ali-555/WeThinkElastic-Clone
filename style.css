@@ -1,7 +1,6 @@
-
 @font-face {
-    font-family: Font;
-    src: url(/Fonts/helveticaneue.woff2);
+  font-family: Font;
+  src: url(/Fonts/helveticaneue.woff2);
 }
 * {
   margin: 0;
@@ -15,10 +14,20 @@ body {
   width: 100%;
 }
 
+::selection{
+  background-color:#f3c77c;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 body {
   background-color: #151414;
   color: #f3c77c;
 }
+
 
 .nav {
   padding: 1rem 2rem;
@@ -32,4 +41,29 @@ body {
   justify-content: center;
   align-items: center;
   gap: 6rem;
+  font-size: larger;
+  color: #f2e2c2;
+}
+
+.landingPage {
+  height: 100vh;
+  display: flex;
+  font-weight: bolder;
+  letter-spacing: -20px;
+  margin-top: -100px;
+  padding-left: 5rem;
+}
+
+.landingPage span {
+  font-size: 35rem;
+}
+
+.breakLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
