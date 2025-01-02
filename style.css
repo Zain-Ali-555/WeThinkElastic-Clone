@@ -2,12 +2,20 @@
   font-family: Font;
   src: url(/Fonts/helveticaneue.woff2);
 }
+
+@font-face {
+  font-family: Curly_Font;
+  src: url(/Fonts/ivy-presto-display.otf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Font;
 }
+
 html,
 body {
   height: 100%;
@@ -15,7 +23,7 @@ body {
 }
 
 ::selection{
-  background-color:#f3c77c;
+  background-color:#362f24;
 }
 
 ::-webkit-scrollbar {
@@ -66,4 +74,42 @@ body {
   font-size: 2.2rem;
   text-transform: uppercase;
   letter-spacing: -1px;
+  margin-bottom: 5rem;
+}
+
+.textPage{
+  display: flex;
+  height: 120vh;
+  width: 100vw;
+}
+
+.left{
+  height: 100%;
+  width: 78%;
+  color: #e7cfb1;
+  font-size: 8rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 19rem;
+}
+h2{
+  margin-bottom: -75px;
+}
+
+.curly{
+  font-family: Curly_Font;
+}
+
+.right{
+  width: 22%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 3rem ;
+  color: #e7cfb1;
+  background-color: #151414;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
