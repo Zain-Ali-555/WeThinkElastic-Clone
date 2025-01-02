@@ -8,7 +8,6 @@
   src: url(/Fonts/ivy-presto-display.otf);
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -22,20 +21,18 @@ body {
   width: 100%;
 }
 
-::selection{
-  background-color:#362f24;
+::selection {
+  background-color: #362f24;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-
 body {
   background-color: #151414;
   color: #f3c77c;
 }
-
 
 .nav {
   padding: 1rem 2rem;
@@ -77,13 +74,13 @@ body {
   margin-bottom: 5rem;
 }
 
-.textPage{
+.textPage {
   display: flex;
   height: 120vh;
   width: 100vw;
 }
 
-.left{
+.left {
   height: 100%;
   width: 78%;
   color: #e7cfb1;
@@ -94,22 +91,52 @@ body {
   justify-content: center;
   padding-left: 19rem;
 }
-h2{
+.left h2 {
   margin-bottom: -75px;
 }
 
-.curly{
+.curly {
   font-family: Curly_Font;
 }
 
-.right{
+.right {
   width: 22%;
   display: flex;
   align-items: end;
   justify-content: center;
-  padding-bottom: 3rem ;
+  padding-bottom: 3rem;
   color: #e7cfb1;
   background-color: #151414;
   font-size: 1.2rem;
   text-transform: uppercase;
 }
+
+/* Projects */
+.projectsPage {
+  width: 100%;
+  padding: 2rem;
+}
+
+.SVG {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.circleTxt {
+  animation: circle 10s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.overArrow {
+  position: absolute;
+}
+
