@@ -91,6 +91,7 @@ body {
   justify-content: center;
   padding-left: 19rem;
 }
+
 .left h2 {
   margin-bottom: -75px;
 }
@@ -112,6 +113,9 @@ body {
 }
 
 /* Projects */
+
+/* 1 */
+
 .projectsPage {
   width: 100%;
   padding: 2rem;
@@ -121,6 +125,7 @@ body {
   position: relative;
   display: flex;
   justify-content: end;
+  padding-right: 5rem;
 }
 
 .circleTxt {
@@ -140,3 +145,69 @@ body {
   position: absolute;
 }
 
+.project_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vid_left {
+  width: 50%;
+}
+
+.img_right {
+  height: 95vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.img_right img {
+  height: 18rem;
+}
+
+/* 2 */
+
+.project_2 {
+  width: 100%;
+  display: flex;
+  height: 95vh;
+}
+
+.videoSection {
+  width: 50%;
+}
+
+.videoSection div {
+  background-color: #362f24;
+  width: 28rem;
+  height: 22rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videoSection div video {
+  height: 120%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.imgSection {
+  width: 50%;
+  display: flex;
+  align-items: end;
+}
+
+.imgSection div {
+  background-color: #151414;
+  width: 100%;
+  height: 80%;
+}
+
+.imgSection div img {
+  object-fit: contain;
+  width: 100%;
+  cursor: pointer;
+}
