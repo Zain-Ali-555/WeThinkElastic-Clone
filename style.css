@@ -211,3 +211,36 @@ body {
   width: 100%;
   cursor: pointer;
 }
+
+/* Project Tag */
+
+.project_tag {
+  margin: 10rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.project_tag div {
+  border: 1px solid #e7cfb1;
+  position: absolute;
+  border-radius: 50%;
+  padding: 4rem 10rem;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.project_tag h5 {
+  font-size: larger;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #e7cfb1;
+  text-align: center;
+}
+
+.project_tag div:hover {
+  border: 1px solid #e7cfb1;
+  rotate: -15deg;
+  padding: 5rem 11rem;
+}
