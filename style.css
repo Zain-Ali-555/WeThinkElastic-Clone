@@ -244,3 +244,18 @@ body {
   rotate: -15deg;
   padding: 5rem 11rem;
 }
+
+.FullPage_Animation {
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  height: 100vh;
+  background-color: #9ac1cb;
+  color: #151414;
+  overflow-x: hidden;
+}
+.FullPage_Animation h1 {
+  padding-left: 5rem;
+  font-size: 35rem;
+  text-transform: uppercase;
+}
