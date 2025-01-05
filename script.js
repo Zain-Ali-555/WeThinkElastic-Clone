@@ -9,7 +9,6 @@ gsap.to(".FullPage_Animation h1", {
   scrollTrigger:{
     trigger:".FullPage_Animation",
     scroller:"body",
-    markers:true,
     start:"top 0%",
     end:"top -500%",
     scrub:2,
